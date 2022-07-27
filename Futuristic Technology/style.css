@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 162px;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    z-index: 1;
+    top: 0;
+    position: sticky;
+}
+
+.limg {
+    border: 2px solid aliceblue;
+    border-radius: 43px;
+}
+
+.comp {
+    font-weight: 200;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu a:last-child {
+    background-color: rgb(245, 131, 25);
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: rgb(245, 131, 25);
+    border-radius: 5px;
+    transition: 0.4s linear;
+}
+
+.container1 {
+    background-color: aqua;
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainimg {
+    height: 67vh;
+    margin: 20px 152px;
+    -webkit-box-reflect: below -168px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.451))
+}
+
+.Cname {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.MainHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Description {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: brown;
+    font-size: 13px;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 3px;
+    font-weight: 900;
+    margin: 27px 250px;
+}
+
+.btn:hover {
+    background-color: rgb(245, 131, 25);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+
+.products {
+    display: flex;
+    margin: 300px 30px;
+    height: 100vh;
+}
+
+.img {
+    text-align: center;
+}
+
+.img1_name {
+    text-decoration: none;
+    color: black;
+}
+
+.but {
+    background-color: brown;
+    font-size: 13px;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 3px;
+    font-weight: 900;
+}
+
+.but:hover {
+    background-color: rgb(245, 131, 25);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+
+.aboutUs {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    height: 100vh;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 100px 20px;
+    text-align: justify;
+}
+
+.contactUs {
+    background-color: cadetblue;
+    color: black;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactUs a {
+    text-decoration: none;
+}
+
+.upArrow {
+    position: absolute;
+    margin-top: 260px;
+    border: 2px solid indianred;
+}
+
+.upArrow2 {
+    position: relative;
+    border: 2px solid salmon;
+}
+
+.upArrow3 {
+    position: relative;
+    border: 2px solid salmon;
+}
+
+.img1Price {
+    color: rgb(200, 24, 24);
+}
